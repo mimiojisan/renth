@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renth! - レンタルイベントスペース -</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/ress.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/931c5e739a.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+</head>
+<body>
+
+    <!-- ヘッダー -->
+    <header id="header" class="header">
+
+        <!-- ヘッダー左（会社名） -->
+        <section class="header-left">
+            <h1 class="site-title"><img src="img/h-logo.png" alt="サイトロゴ"></p>
+        </section>
+        
+        <!-- ヘッダー右（グロナビ） -->
+        <section id="header-right" class="header-right">
+            <nav id="nav" class="nav">
+                <li>
+                    <a href="index.html" rel="noopener noreferrer">
+                    <span class="nav-en">TOP</span>
+                    <span class="nav-jp">トップ</span></a>
+                </li>
+  
+                <li>
+                    <a href="index.html#home" rel="noopener noreferrer" >
+                    <span class="nav-en">HOME</span>
+                    <span class="nav-jp">Renthについて</span></a>
+                </li>
+              
+                <li>
+                    <a href="#"  rel="noopener noreferrer" >
+                    <span class="nav-en">PLAN</span>
+                    <span class="nav-jp">プラン料金</span></a>
+                </li>
+  
+                <li>
+                    <a href="faq.html" rel="noopener noreferrer" >
+                    <span class="nav-en">CONTACT</span>
+                    <span class="nav-jp">お問い合わせ</span></a>
+                </li>
+            </nav>
+
+            <!-- SP用ヘッダー -->
+            <button class="sp-menu" id="sp-menu">
+                <span></span>
+                <span></span>
+                <span></span>  
+            </button>
+            <div id="mask"></div>
+
+        </section>
+
+    </header>
+
+    <!-- メイン -->
+    <main id="main-plan" class="main">
+        
+        <!-- セクションタイトル -->
+        <section class="main_img">
+            <img src="./img/renth_mainttl2-img.jpg" alt="メインタイトル 計画用">
+            <div class="main_img-ttl">
+                <h2 class="sec-ttl">PLAN & PRICE</h2>
+                <p class="sec-sbttl">ご利用プランと料金</p>
+            </div>
+        </section>
+
+        <!-- プラン1セクション -->
+        <section id="plan_top-area1" class="plan_top-area1">
+            <div class="area1-flex">
+                <div class="area1-flex-img effect-fade">
+                   <img src="img/renth_planprice1-img.jpg" alt="結婚式・披露宴">
+                </div>
+                <div class="area1-flex-box effect-fade">
+                    <h3 class="area1-flex-box-ttl">人生の門出を祝う<br>ふたりの思い出の場所に。</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- プラン2セクション -->
+        <section id="plan_top-area2" class="plan_top-area2">
+            <div class="area2-flex">
+                <div class="area2-flex-img effect-fade">
+                    <img src="img/renth_planprice2-img.jpeg" alt="披露宴">
+                </div>
+                <div class="area2-flex-box effect-fade">
+                    <h3 class="area2-flex-box-ttl">人生の門出を祝う<br>ふたりの思い出の場所に。</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- プランメッセージセクション -->
+        <!-- <section id="plan_message" class="plan_message">
+            <div class="plan_message-container">
+                <div class="plan_message-head">
+                    <h3 class="plan_message-ttl">ひとりはみんなのために。</h3>
+                    <h3 class="plan_message-ttl">みんなはひとりのために。</h3>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- プライスセクション -->
+        <section id="price_list" class="price_list">
+            <h3 class="sec-thittl">ご利用料金</h3>
+            <div class="price_list-container effect-fade effect-scroll">
+                <div class="price_list-child1">
+                    <a href="#">
+                        <div class="price_list-child-block">
+                            <div class="price_list-child-over">
+                                <span class="price_list-child-over-ttl">冠婚葬祭 プラン</span>
+                                <span class="price_list-child-over-price">￥10,000/H</span>
+                            </div>
+                            <div class="price_list-child-under">
+                                <p class="special">無料シャトルバス 利用可</p>
+                                <p>収容人数：50名 / 100名<br>利用時間：全営業日 10:00~20:00</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+    
+                <div class="price_list-child2">
+                    <a href="#">
+                        <div class="price_list-child-block">
+                            <div class="price_list-child-over">
+                                <span class="price_list-child-over-ttl">会食付 プラン</span>
+                                <span class="price_list-child-over-price">￥15,000/H</span>
+                            </div>
+                            <div class="price_list-child-under">
+                                <p class="special">大人数 利用可</p>
+                                <p>利用人数：300名 / 500名<br>利用時間：全営業日 10:00~21:00</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+    
+                <div class="price_list-child3">
+                    <a href="#">
+                        <div class="price_list-child-block">
+                            <div class="price_list-child-over">
+                                <span class="price_list-child-over-ttll">日中 プラン</span>
+                                <span class="price_list-child-over-price">￥10,000/H</span>
+                            </div>
+                            <div class="price_list-child-under">
+                                <p class="special">有線LAN 利用可</p>
+                                <p>利用人数：5名様~<br>利用時間：全営業日 10:00~18:00</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="price_list-child4">
+                    <a href="#">
+                        <div class="price_list-child-block">
+                            <div class="price_list-child-over">
+                                <span class="price_list-child-over-ttl">早朝 プラン</span>
+                                <span class="price_list-child-over-price">￥8,000/H</span>
+                            </div>
+                            <div class="price_list-child-under">
+                                <p class="special">フリードリンク 利用可</p>
+                                <p>利用人数：10名様~<br>利用時間：全営業日 6:00~12:00</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- リザーブセクション -->
+        <section id="reserve" class="reserve">
+            <h3 class="sec-thittl">ご利用方法</h3>            
+            <ul class="reserve-flex">
+                <li>
+                    <p class="reserve-flex-ttl">STEP1</p>
+                    <p class="reserve-flex-txt">App StoreもしくはGoogle Playから『レンス 』と検索してアプリをダウンロード！</p>
+                    <!-- <div class="reserve-flex-imgbox effect-fade">
+                        <img src="img/renth_reserve1-img.jpg" alt="Wedding image">
+                    </div> -->
+                </li>
+                <li>
+                    <p class="reserve-flex-ttl">STEP2</p>
+                    <p class="reserve-flex-txt">アプリを起動し、
+                        ログインもしくは会員登録してください</p>
+                    <!-- <div class="reserve-flex-imgbox effect-fade">
+                        <img src="img/renth_use2-img.jpg" alt="Kickoff image">
+                    </div> -->
+                </li>
+                <li>
+                    <p class="reserve-flex-ttl">STEP3</p>
+                    <p class="reserve-flex-txt">”空席確認/予約”メニューから「店舗」「利用日時」「ご利用プラン」「人数」を選択して予約完了！</p>
+                    <!-- <div class="reserve-flex-imgbox effect-fade">
+                        <img src="img/renth_use3-img.jpg" alt="Party image">
+                    </div> -->
+                </li>
+            </ul>
+        </section>        
+
+    </main>
+
+    <!-- フッター -->
+    <footer id="footer" class="footer">
+        <section class="footer_contact">
+            <div class="footer_contact-flex">
+                <li class="footer_contact-child1">
+                    <h1><img src="img/f-logo.png" alt="サイトロゴ"></h1>
+                </li>
+                <li class="footer_contact-child2">
+                    <dl>
+                        <dt>PLACE</dt>
+                        <dd>大阪府大阪市北区梅田0-00-000</dd> 
+                        <dt>TEL</dt>
+                        <dd><a href="tel:000-000-0000" target="_blank" rel="noopener">000-000-0000</a></dd>
+                    </dl>
+                </li>
+                <li class="footer_contact-child3">
+                    <p>公式SNSで発信中！</p>
+                    <!-- インスタグラム -->
+                    <a href="#" class="sns-btn" target="_blank" rel="noopener">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <!-- フェイスブック -->
+                    <a href="#" class="sns-btn" target="_blank" rel="noopener">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <!-- ライン -->
+                    <a href="#" class="sns-btn" target="_blank" rel="noopener">
+                        <i class="fab fa-line"></i>
+                    </a>
+                </li>
+            </div>
+        </section>
+
+        <section class="copy-right">
+          ©︎2022 | Renth Inc , ALL RIGHTS RESERVED.
+        </section>
+
+    </footer>
+
+    <script src="js/index.js"></script>
+ 
+</body>
+</html>

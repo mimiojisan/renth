@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renth! - レンタルイベントスペース -</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/ress.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/931c5e739a.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+</head>
+<body>
+
+    <!-- ヘッダー -->
+    <header id="header" class="header">
+
+        <!-- ヘッダー左（会社名） -->
+        <section class="header-left">
+            <h1 class="site-title"><img src="img/h-logo.png" alt="サイトロゴ"></p>
+        </section>
+        
+        <!-- ヘッダー右（グロナビ） -->
+        <section id="header-right" class="header-right">
+            <nav id="nav" class="nav">
+                <li>
+                    <a href="index.html" rel="noopener noreferrer">
+                    <span class="nav-en">TOP</span>
+                    <span class="nav-jp">トップ</span></a>
+                </li>
+  
+                <li>
+                    <a href="index.html#home" rel="noopener noreferrer" >
+                    <span class="nav-en">HOME</span>
+                    <span class="nav-jp">Renthについて</span></a>
+                </li>
+              
+                <li>
+                    <a href="plan.html" rel="noopener noreferrer" >
+                    <span class="nav-en">PLAN</span>
+                    <span class="nav-jp">プラン料金</span></a>
+                </li>
+  
+                <li>
+                    <a href="#" rel="noopener noreferrer" >
+                    <span class="nav-en">CONTACT</span>
+                    <span class="nav-jp">お問い合わせ</span></a>
+                </li>
+            </nav>
+
+            <!-- SP用ヘッダー -->
+            <button class="sp-menu" id="sp-menu">
+                <span></span>
+                <span></span>
+                <span></span>  
+            </button>
+            <div id="mask"></div>
+            
+        </section>
+
+    </header>
+
+    <!-- メイン -->
+    <main id="main-faq" class="main">
+
+        <!-- セクションタイトル -->
+        <section class="main_img">
+            <img src="./img/renth_mainttl1-img.jpg" alt="メインタイトル 質問用">
+            <div class="main_img-ttl">
+                <h2 class="sec-ttl">FAQ</h2>
+                <p class="sec-sbttl">よくあるご質問</p>
+            </div>
+        </section>
+   
+        <!-- カテゴリーセクション -->
+        <section id="faq_list" class="faq_list">
+            <div class="faq_list-container effect-fade">
+                <div class="faq_list-child1 faq_list-txt">
+                    <a href="#">
+                        <div class="faq_list-child-block">
+                            <h3 class="faq_list-child-block-ttl">プランについて</h3>
+                            <p class="faq_list-child-block-txt">プランやオプションに関することが記載されています</p>
+                        </div>
+                    </a>
+                </div>
+    
+                <div class="faq_list-child2 faq_list-txt">
+                    <a href="#">
+                        <div class="faq_list-child-block">
+                            <h3 class="faq_list-child-block-ttl">ご契約内容変更について</h3>
+                            <p class="faq_list-child-block-txt">ご契約締結後の変更に関することが記載されています</p>
+                        </div>
+                    </a>
+                </div>
+    
+                <div class="faq_list-child3 faq_list-txt">
+                    <a href="#">
+                        <div class="faq_list-child-block">
+                            <h3 class="faq_list-child-block-ttl">個人情報の取り扱いについて</h3>
+                            <p class="faq_list-child-block-txt">登録いただいているお客様の情報に関することが記載されています</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>    
+
+        <!-- キーワードセクション -->
+        <section id="faq_key" class="faq_key">
+            <div class="faq_key-words faq_key-words-top-most effect-fade" data-nosnippet="true">
+                <div class="faq_key-words-ttl">よく見られている言葉</div>
+                <div class="faq_key-words-body">
+                    <div class="faq_key-words-body-child">
+                        <div class="faq_key-words-body-child-headword"></div>
+                        <div class="faq_key-words-body-child-list">
+                            <a>アメニティ</a>
+                            <a>貸出品</a>
+                            <a>機材</a>
+                            <a>持ち込み</a>
+                            <a>延長</a>
+                            <a>キャンセル</a>
+                            <a>支払い</a>
+                            <a>クレジット</a>
+                            <a>サブスク</a>
+                            <a>ログイン</a>
+                            <a>紛失</a>
+                            <a>解約</a>
+                            <a>パスワード</a>
+                            <a>身分証明</a>
+                            <a>場所</a>
+                            <span></span>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </section>   
+
+        <!-- ボックスセクション -->
+        <section id="faq_box" class="faq_box">
+            <div class="faq_box-container">
+                <div class="faq_box-child effect-fade">
+                    <p class="question">キャンセル料の発生について</p>
+                    <p class="answer">1週間前までお電話にて承っております。</p>
+                </div>
+                <div class="faq_box-child effect-fade">
+                    <p class="question">機材の持ち込みについて</p>
+                    <p class="answer">撮影等でご利用の際はあらかじめ担当者までお知らせくださいませ。
+                    </p>
+                </div>
+                <div class="faq_box-child effect-fade">
+                    <p class="question">お支払方法について</p>
+                    <p class="answer">銀行振込、クレジット払い、現金払いに対応しております。※法人の方のご利用の場合は、銀行振込のみとなります。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- コンタクトセクション -->
+        <section id="faq_contact" class="faq_contact">
+            <div class="faq_contact-container">
+                <p>その他お気付きの点がございましたら<br>お気軽にご連絡くださいませ。</p>
+                <li class="faq_contact-list">
+                    <a href="mailto:mimiojisaaan.info@gmail.com" class="sns-btn"><i class="far fa-envelope" target="_blank" rel="noopener" aria-hidden="true"></i></a>
+                    <p>
+                        <a href="tel:000-000-0000" target="_blank" rel="noopener">000-000-0000</a>
+                    </p>
+                </li>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- フッター -->
+    <footer id="footer" class="footer">
+        <section class="footer_contact">
+            <div class="footer_contact-flex">
+                <li class="footer_contact-child1">
+                    <h1><img src="img/f-logo.png" alt="サイトロゴ"></h1>
+                </li>
+                <li class="footer_contact-child2">
+                    <dl>
+                        <dt>PLACE</dt>
+                        <dd>大阪府大阪市北区梅田0-00-000</dd> 
+                        <dt>TEL</dt>
+                        <dd><a href="tel:000-000-0000" target="_blank" rel="noopener">000-000-0000</a></dd>
+                    </dl>
+                </li>
+                <li class="footer_contact-child3">
+                    <p>公式SNSで発信中！</p>
+                    <!-- インスタグラム -->
+                    <a href="#" class="sns-btn" target="_blank" rel="noopener">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <!-- フェイスブック -->
+                    <a href="#" class="sns-btn" target="_blank" rel="noopener">
+                        <i class="fab fa-facebook"></i>
+                    </a> 
+                    <!-- ライン -->
+                    <a href="#" class="sns-btn" target="_blank" rel="noopener">
+                        <i class="fab fa-line"></i>
+                    </a>
+                </li>
+            </div>
+        </section>
+
+        <section class="copy-right">
+          ©︎2022 | Renth Inc , ALL RIGHTS RESERVED.
+        </section>
+
+    </footer>
+
+    <script src="js/index.js"></script>
+ 
+</body>
+</html>

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renth! - レンタルイベントスペース -</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/ress.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/931c5e739a.js" crossorigin="anonymous"></script>
+
+    <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/common.js"></script>
+</head>
+<body>
+
+    <!-- ヘッダー -->
+    <header id="header" class="header">
+
+        <!-- ヘッダー左（会社名） -->
+        <section class="header-left">
+            <h1 class="site-title"><img src="img/h-logo.png" alt="サイトロゴ"></p>
+        </section>
+        
+        <!-- ヘッダー右（グロナビ） -->
+        <section id="header-right" class="header-right">
+            <nav id="nav" class="nav">
+                <li>
+                    <a href="index.html" rel="noopener noreferrer">
+                    <span class="nav-en">TOP</span>
+                    <span class="nav-jp">トップ</span></a>
+                </li>
+  
+                <li>
+                    <a href="index.html#home" rel="noopener noreferrer" >
+                    <span class="nav-en">HOME</span>
+                    <span class="nav-jp">Renthについて</span></a>
+                </li>
+              
+                <li>
+                    <a href="plan.html" rel="noopener noreferrer" >
+                    <span class="nav-en">PLAN</span>
+                    <span class="nav-jp">プラン料金</span></a>
+                </li>
+  
+                <li>
+                    <a href="faq.html" rel="noopener noreferrer" >
+                    <span class="nav-en">CONTACT</span>
+                    <span class="nav-jp">お問い合わせ</span></a>
+                </li>
+            </nav>
+
+            <!-- SP用ヘッダー -->
+            <button class="sp-menu" id="sp-menu">
+                <span></span>
+                <span></span>
+                <span></span>  
+            </button>
+            <div id="mask"></div>
+
+        </section>
+
+    </header>
+
+    <!-- メイン -->
+    <main class="main">
+
+        <!-- メインビジュアル -->
+        <section class="mainimg">
+            <img src="img/renth_main-img.jpeg" alt="レンス イメージ写真">
+        </section>
+
+        <!-- スクロールバー -->
+        <div class="scrolldown">
+            <span>SCROLL</span>
+        </div>
+
+        <!-- メッセージセクション -->
+        <section id="home" class="message effect-fade">
+            <h2>WELCOME TO RENTH STUDIO</h2>
+            <p>レンス スタジオへようこそ！</p>
+            <p class="message-txt">従来の形式にとらわれた空間ではなく、
+            <br>オリジナリティに富んだ空間を提供したい。
+            <br>そんな想いからできた会社です。
+            <br>こんな空間を作りたい！皆様の想いを是非お聞かせください。
+            <br>世界でたったひとつの空間をともに作り上げていきましょう。</p>
+        </section>
+
+        <!-- グリッドセクション -->
+        <section id="grid" class="grid">
+            <div class="grid-container">
+                <div class="grid-child1 grid-img"><img src="img/renth_grid1-img.jpg" alt="イベント用写真"></div>
+                <div class="grid-child2 grid-img"><img src="img/renth_grid2-img.jpg" alt="会社用写真"></div>
+                <div class="grid-child3 grid-img grid-no"><img src="img/renth_grid3-img.jpg" alt="挿絵用写真"></div>
+                <div class="grid-child4 grid-img"><img src="img/renth_grid4-img.jpg" alt="個人用写真"></div>
+                <div class="grid-child5 grid-txt effect-fade">
+                    <h3>人生の晴れ姿に最高の空間を</h3>
+                    <p>結婚披露宴、誕生日パーティーなど</p>
+                </div>
+                <div class="grid-child6 grid-txt effect-fade">
+                    <h3>頑張るあなたに最大限の応援を</h3>
+                    <p>セミナーやミーティングに</p>
+                </div>
+                <div class="grid-child7 grid-txt effect-fade">
+                    <h3>親しみ慣れた場所の提供を</h3>
+                    <p>会議や歓迎会に</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ユースセクション -->
+        <section id="useful" class="useful">
+            <h2 class="sec-ttl">HOW TO USE</h2>
+            <p class="sec-sbttl">どんな使い方があるの？</p>
+            <ul class="useful-flex effect-fade">
+                <li class="useful-flex-box">
+                    <div class="useful-flex-box-img">
+                        <img src="img/renth_use1-img.jpeg" alt="イベント">
+                    </div>
+                    <p class="useful-flex-box-ttl">Wedding Ceremony / Reception</p>
+                    <p class="useful-flex-box-txt">結婚式 / 披露宴</p>
+                </li>
+
+                <li class="useful-flex-box">
+                    <div class="useful-flex-box-img">
+                        <img src="img/renth_use2-img.jpeg" alt="会社">
+                    </div>
+                    <p class="useful-flex-box-ttl">Kickoff Meeting</p>
+                    <p class="useful-flex-box-txt">決起集会 / 発足会議</p>
+                </li>
+
+                <li class="useful-flex-box">
+                    <div class="useful-flex-box-img">
+                        <img src="img/renth_use3-img.jpeg" alt="プライベート">
+                    </div>
+                    <p class="useful-flex-box-ttl">Reception Party</p>
+                    <p class="useful-flex-box-txt">歓迎会 / 招待制イベント</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- プランセクション -->
+        <section id="planning" class="planning">
+            <h2 class="sec-ttl">PLANNING</h2>
+            <p class="sec-sbttl">どんなプランがあるの？</p>
+            <div class="planning-flex effect-fade">
+                <li class="planning-flex-left">
+                    <h3>個人様向け</h3>
+                    <dl>
+                        <dt>1時間</dt>
+                        <dd>¥10,000~ / 人</dd>
+                        <dt>3時間</dt>
+                        <dd>¥30,000~ / 人</dd>
+                        <dt>6時間</dt>
+                        <dd>¥60,000~ / 人</dd>
+                    </dl>
+                    <div class="panel gray">
+                        <a href="./plan.html">
+                            <button>READ MORE</button>
+                        </a>
+                    </div>
+                </li>
+                <li class="planning-flex-right">
+                    <h3>法人様向け</h3>
+                    <dl>
+                        <dt>3時間</dt>
+                        <dd>¥24,000~ / 人</dd>
+                        <dt>6時間</dt>
+                        <dd>¥48,000~ / 人</dd>
+                        <dt>9時間</dt>
+                        <dd>¥72,000~ / 人</dd>
+                    </dl>
+                    <div class="panel gray">
+                        <a href="./plan.html">
+                            <button>READ MORE</button>
+                        </a>
+                    </div>
+                </li>
+            </div>
+        </section>
+  
+        <!-- インスタグラムセクション -->
+        <section id="sns" class="sns">
+            <h2 class="sec-ttl">INSTAGRAM</h2>
+            <p class="sec-sbttl">実績紹介</p>
+            <div class="sns-container effect-fade">
+                <div class="sns-child1">
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <img src="img/renth_sns1_img.jpg" alt="インスタグラムへ">
+                        <div class="sns-mask">
+                            <div class="sns-caption"><i class="fab fa-instagram" aria-hidden="true"></i></div>
+                        </div>
+                    </a>
+                </div>
+    
+                <div class="sns-child2">
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <img src="img/renth_sns2-img.jpg" alt="インスタグラムへ">
+                        <div class="sns-mask">
+                            <div class="sns-caption"><i class="fab fa-instagram" aria-hidden="true"></i></div>
+                        </div>
+                    </a>
+                </div>
+    
+                <div class="sns-child3">
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <img src="img/renth_sns3-img.jpg" alt="インスタグラムへ">
+                        <div class="sns-mask">
+                            <div class="sns-caption"><i class="fab fa-instagram" aria-hidden="true"></i></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="panel gray">
+                <a href="#">
+                    <button>READ MORE</button>
+                </a>
+            </div>
+        </section>  
+
+    </main>
+
+    <!-- フッター -->
+    <footer id="footer" class="footer">
+        <section class="footer_contact">
+            <div class="footer_contact-flex">
+                <li class="footer_contact-child1">
+                    <h1><img src="img/f-logo.png" alt="サイトロゴ"></h1>
+                </li>
+                <li class="footer_contact-child2">
+                    <dl>
+                        <dt>PLACE</dt>
+                        <dd>大阪府大阪市北区梅田0-00-000</dd> 
+                        <dt>TEL</dt>
+                        <dd><a href="tel:000-000-0000" target="_blank" rel="noopener">000-000-0000</a></dd>
+                    </dl>
+                </li>
+                <li class="footer_contact-child3">
+                    <p>公式SNSで発信中！</p>
+                    <!-- インスタグラム -->
+                    <a href="#" class="sns-btn" target="_blank" rel="noopener">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <!-- フェイスブック -->
+                    <a href="#" class="sns-btn" target="_blank" rel="noopener">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <!-- ライン -->
+                    <a href="#" class="sns-btn" target="_blank" rel="noopener">
+                        <i class="fab fa-line"></i>
+                    </a>
+                </li>
+            </div>
+        </section>
+
+        <section class="copy-right">
+          ©︎2022 | Renth Inc , ALL RIGHTS RESERVED.
+        </section>
+
+    </footer>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
